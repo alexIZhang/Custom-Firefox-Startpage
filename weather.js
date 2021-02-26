@@ -1,5 +1,5 @@
 let API_key = '55f26e9d01f70b2eb29f94494dcf3fd5';
-let input = 'Perth';
+let input = 'Sydney';
 function getWeatherData() {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=${API_key}`)
     .then((res) => res.json())
